@@ -1,4 +1,4 @@
-gut init#!/bin/sh
+git init#!/bin/sh
 
 \. ../common.sh
 
@@ -19,4 +19,4 @@ nvm uninstall "${NVM_TEST_VERSION}" || echo 'not installed'
 
 # Check
 nvm_is_version_installed "${NVM_PREFIXED_TEST_VERSION}" || die 'version not installed'
-nvm run "${NVM_PREFIXED_TEST_VERSION}" --version | grep "${NVM_TEST_VERSION}" || "'nvm run ${NVM_PREFIXED_TEST_VERSION} --version | grep ${NVM_TEST_VERSION}' failed"
+nvm run "${NVM_PREFIXED_TEST_VERSION}" --version | grep "${NVM_TEST_VERSION}" || "'nvm run ${NVM_PREFIXED_TEST_VERSION} --version | grep ${NVM_TEST_VERSION}' failed"_claude
